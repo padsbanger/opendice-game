@@ -2,7 +2,6 @@ import React from "react";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import configureStore from "./store/configureStore";
-import "./App.css";
 import RollsView from "./components/RollsView";
 
 const { store, persistor } = configureStore();

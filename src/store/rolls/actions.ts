@@ -1,7 +1,6 @@
 import { DiceRollResult } from "../../http/http";
 
 export const ADD_DICE_ROLL = "ADD_DICE_ROLL";
-
 export const CLEAR_ROLLS = "CLEAR_ROLLS";
 
 export const addDiceResult = (diceRoll: DiceRollResult) => {
@@ -16,5 +15,3 @@ export const clearRolls = () => {
     type: CLEAR_ROLLS,
   };
 };
-
-export default {};

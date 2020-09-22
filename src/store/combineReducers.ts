@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 
 import rollsReducer from "./rolls/reducer";
-import { Rolls } from "./rolls/types";
+import { Roll } from "./rolls/types";
 
 export default () =>
   combineReducers({
@@ -9,5 +9,5 @@ export default () =>
   });
 
 export interface State {
-  rolls: Rolls;
+  rolls: Roll[];
 }
